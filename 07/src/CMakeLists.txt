@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10.2)
 
 # The project name to be used manywheres in the this file
 # e.g. ${PROJECT_NAME}
-project(VMTranslator)
+project(my_VMTranslator)
 
 
 

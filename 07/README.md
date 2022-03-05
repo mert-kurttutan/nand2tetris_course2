@@ -36,6 +36,8 @@ To run make files binaries
 * ` ./run.sh`
 
 
+**NOTE:** When deploying this program on its own, e.g. submitting only the final binary program, you need to change libraries from SHARED to STATIC since SHARED would required the presence of libraries in shared folder of the new host. As default, I used SHARED libraries.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details

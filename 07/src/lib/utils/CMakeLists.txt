@@ -8,8 +8,8 @@ set(LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
 
 # create library objects as either static or shared libraries
-add_library(utils SHARED utils.cpp)
-# add_library(math STATIC lib/physics/properties.cpp)
+# add_library(utils SHARED utils.cpp)
+add_library(utils STATIC utils.cpp)
 
 
 

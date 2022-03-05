@@ -28,7 +28,7 @@ string convertToString(char* a)
 
 int main(int argc, char **argv){
 
-    string command = "./VMTranslator " + string(argv[1]);
+    string command = "./my_VMTranslator " + string(argv[1]);
 
     system(command.c_str());
 
